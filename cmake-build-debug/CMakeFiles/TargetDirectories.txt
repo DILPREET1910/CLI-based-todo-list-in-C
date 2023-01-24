@@ -1,0 +1,3 @@
+/home/dilpreet1910/CLionProjects/psap group project todo/cmake-build-debug/CMakeFiles/psap_group_project_todo.dir
+/home/dilpreet1910/CLionProjects/psap group project todo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dilpreet1910/CLionProjects/psap group project todo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
