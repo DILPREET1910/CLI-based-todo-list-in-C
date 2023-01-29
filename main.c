@@ -33,15 +33,15 @@ void addTodo(todo *newTodo) {
 
 void removeTodo(todo *newTodo) {
     int targetIndex;
-    printf("%sEnter the index number of the todo you want to remove :\t%s", yellow, reset);
+    printf("%sEnter the number of the todo you want to remove :\t%s", yellow, reset);
     scanf("%d", &targetIndex);
     if (targetIndex >= 0 && targetIndex <= newTodo->index) {
         for (int i = targetIndex; i < newTodo->index; ++i) {
-            strcpy(newTodo->data[i], newTodo->data[i + 1]);
+            strcpy(newTodo->data[i-1], newTodo->data[i]);
         }
         newTodo->index--;
     } else {
-        printf("%sNothing to remove at this index%s", red, reset);
+        printf("%sNo todo is present at this number%s", red, reset);
     }
 }
 
