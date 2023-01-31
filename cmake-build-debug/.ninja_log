@@ -1,15 +1,4 @@
 # ninja log v5
-0	15	1674464825800560649	build.ninja	44de4f808b787ff2
-1	33	1675006996850209491	CMakeFiles/psap_group_project_todo.dir/main.c.o	5cd094618659f980
-0	18	1674456360864003807	CMakeFiles/psap_group_project_todo.dir/main1.c.o	90976e5749ef1760
-33	48	1675006996866210175	psap_group_project_todo	ba7f58a1bb89ba80
-0	22	1675007284174497282	CMakeFiles/psap_group_project_todo.dir/main.c.o	5cd094618659f980
-22	38	1675007284190497966	psap_group_project_todo	ba7f58a1bb89ba80
-0	21	1675007432980861176	CMakeFiles/psap_group_project_todo.dir/main.c.o	5cd094618659f980
-21	37	1675007432996861861	psap_group_project_todo	ba7f58a1bb89ba80
-0	22	1675007454977801904	CMakeFiles/psap_group_project_todo.dir/main.c.o	5cd094618659f980
-22	38	1675007454989802417	psap_group_project_todo	ba7f58a1bb89ba80
-1	24	1675007489095260980	CMakeFiles/psap_group_project_todo.dir/main.c.o	5cd094618659f980
-24	38	1675007489111261665	psap_group_project_todo	ba7f58a1bb89ba80
+0	15	1675138265414813031	build.ninja	44de4f808b787ff2
 0	25	1675007518620523666	CMakeFiles/psap_group_project_todo.dir/main.c.o	5cd094618659f980
 25	41	1675007518636524350	psap_group_project_todo	ba7f58a1bb89ba80
