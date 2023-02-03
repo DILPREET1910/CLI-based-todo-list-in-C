@@ -14,7 +14,7 @@
 
 typedef struct TODO {
     char data[100][100];
-    char index;
+    int index;
 } todo;
 
 todo *createTodo(void) {
