@@ -37,7 +37,7 @@ void removeTodo(todo *newTodo) {
     scanf("%d", &targetIndex);
     if (targetIndex >= 0 && targetIndex <= newTodo->index) {
         for (int i = targetIndex; i < newTodo->index; ++i) {
-            strcpy(newTodo->data[i-1], newTodo->data[i]);
+            strcpy(newTodo->data[i - 1], newTodo->data[i]);
         }
         newTodo->index--;
     } else {
@@ -65,6 +65,8 @@ void main() {
                 break;
             case 'r':
                 removeTodo(myTodo);
+                getchar();
+                system("clear");
                 break;
             case 'd':
                 displayTodo(myTodo);
