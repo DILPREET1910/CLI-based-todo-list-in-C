@@ -41,7 +41,7 @@ void removeTodo(todo *newTodo) {
         }
         newTodo->index--;
     } else {
-        printf("%sNo todo is present at this number%s", red, reset);
+        printf("%sNo todo is present at this number%s\n", red, reset);
     }
 }
 
