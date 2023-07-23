@@ -1,4 +1,3 @@
-Sure! Here's a sample README file for the simple command-line todo list application:
 
 # Command-line Todo List Application
 
