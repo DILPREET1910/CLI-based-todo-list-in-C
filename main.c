@@ -12,6 +12,10 @@
 #define cyan "\x1B[36m"
 #define white "\x1B[37m"
 
+void clearScreen(void) {
+    printf("\e[1;1H\e[2J");
+}
+
 typedef struct TODO {
     char data[100][100];
     int index;
@@ -51,7 +55,7 @@ void displayTodo(todo *newTodo) {
     }
 }
 
-void main() {
+int main() {
     char input[100];
     bool endOfLoop = false;
     todo *myTodo = createTodo();
@@ -66,7 +70,7 @@ void main() {
             case 'r':
                 removeTodo(myTodo);
                 getchar();
-                system("clear");
+                clearScreen();
                 break;
             case 'd':
                 displayTodo(myTodo);
@@ -80,4 +84,6 @@ void main() {
                        red, cyan, red, cyan, red, reset);
         }
     }
+    free(myTodo);
+    return 0;
 }
